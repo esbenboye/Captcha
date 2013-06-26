@@ -1,3 +1,7 @@
+	<?php
+		session_start();
+		include("setup.php");
+	?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,10 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-	<?php
-		session_start();
-		include("setup.php");
-	?>
 	<form action="" method="post" name="userpass">
 		<img src="cap.php" style="width:65px;height:25px;"><br>
 		<input type="text" name="captcha">
